@@ -1,0 +1,70 @@
+h1 {
+  color: gold;
+  font-size: 50px;
+}
+
+body {
+   background-image: url('blue.jpg');
+   text-align: center;
+   margin: auto;
+}
+
+img {
+  max-width: 30%;
+  max-height: 10%;
+  display: block;
+  margin: auto;
+}
+
+header {
+  margin: auto;
+  font-size: 20px;
+}
+
+i {
+  color: bisque;
+  text-align: center;
+  margin-top: auto;
+  font-size: 100px;
+}
+
+p {
+  color: gold;
+  font-size: 20px;
+}
+
+em {
+  color: lightblue;
+  font-size: 25px;
+}
+
+h2 {
+  color: red;
+}
+
+a {
+  color: white;
+}
+
+footer {
+  color: bisque;
+  text-align: left;
+  background-color: green;
+}
+
+.logo-img{
+  position: relative;
+  margin: 0.3px 0.3px 0.3px 0.3px;
+  height: 130px;
+}
+
+li {
+  color: orange;
+  font-size: 20px;
+  text-align: left;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+}
