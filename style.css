@@ -17,6 +17,7 @@ img {
 }
 
 header {
+  display: inline;
   margin: auto;
   font-size: 20px;
 }
@@ -53,9 +54,10 @@ footer {
 }
 
 .logo-img{
-  position: relative;
+  position: absolute;
+  float: left;
   margin: 0.3px 0.3px 0.3px 0.3px;
-  height: 130px;
+  height: 150px;
 }
 
 li {
@@ -65,8 +67,7 @@ li {
 }
 
 .header-title {
-  display: flex;
-  align-items: center;
+  margin: auto;
 }
 
 .name {
