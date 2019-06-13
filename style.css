@@ -1,12 +1,21 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: green;
+}
+.grid-item {
+  background-color: yellow;
+  padding: 35px;
+}
+
 h1 {
   color: gold;
   font-size: 50px;
 }
 
 body {
-   background-image: url('blue.jpg');
-   text-align: center;
-   margin: auto;
+    background-image: url('blue.jpg');
+    margin: auto;
 }
 
 img {
@@ -56,8 +65,8 @@ footer {
 .logo-img{
   position: absolute;
   float: left;
-  margin: 0.3px 0.3px 0.3px 0.3px;
-  height: 150px;
+  margin: 10px 10px 10px 10px;
+  height: 180px;
 }
 
 li {
@@ -72,4 +81,9 @@ li {
 
 .name {
   text-align: center;
+}
+
+nav {
+  overflow: hidden;
+  background-color: gold;
 }
