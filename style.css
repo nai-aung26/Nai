@@ -1,10 +1,13 @@
 .grid-container {
-  display: grid;
+  display:grid;
   grid-template-columns: auto auto auto;
-  background-color: green;
+  grid-template-rows: 33vh 33vh 33vh;
+  grid-gap: 2px;
+  text-align: center;
+  color: white;
 }
+
 .grid-item {
-  background-color: yellow;
   padding: 35px;
 }
 
@@ -13,8 +16,19 @@ h1 {
   font-size: 50px;
 }
 
+#About {
+  background-image: url(blue.jpg);
+}
+
+#front {
+  background: url(astronomy.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
 body {
-    background-image: url('blue.jpg');
     margin: auto;
 }
 
