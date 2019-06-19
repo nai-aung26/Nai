@@ -28,6 +28,22 @@ h1 {
 background-size: cover;
 }
 
+#resume {
+  background: url(Pic.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+#links {
+  background: url(moonset.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
 body {
     margin: auto;
 }
@@ -100,4 +116,9 @@ li {
 nav {
   overflow: hidden;
   background-color: gold;
+}
+
+.link {
+  border: 1px solid green;
+  background-color: green;
 }
