@@ -5,11 +5,10 @@
   grid-gap: 2px;
   text-align: center;
   color: white;
-  position: absolute;
   grid-template-areas:
-  ". . ."
-  "t img ."
-  ". t end"
+            ". . ."
+            "t img ."
+            "t . end";
 }
 
 .grid-item {
@@ -100,10 +99,14 @@ footer {
 }
 
 .logo-img{
-  position: absolute;
   float: left;
   margin: 10px 10px 10px 10px;
-  height: 180px;
+  height: 75px;
+}
+
+.grid-logo{
+    margin: 10px 10px 10px 10px;
+  height: 75px;
 }
 
 li {
@@ -121,14 +124,21 @@ li {
 }
 
 nav {
-  display: table-cell;
+  display: inherit;
   position: relative;
   width: auto;
   padding: 15px;
-  background-color: gold;
+  background-color: gray;
+  font-size: 20px;
 }
 
 .link {
-  color: Green;
+  color: lightblue;
   text-decoration: none;
+
+}
+
+.link:hover {
+  color: white;
+  transition: .2s;
 }
