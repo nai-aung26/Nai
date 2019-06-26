@@ -68,7 +68,7 @@ header {
 }
 
 i {
-  color: bisque;
+  color: gold;
   text-align: center;
   margin-top: auto;
   font-size: 100px;
@@ -141,9 +141,15 @@ nav {
 .link:hover {
   color: white;
   transition: .2s;
+  background: black;
+  padding: 15px;
 }
 
 .NA:hover {
   color: White;
   text-align: right;
+}
+
+.resume {
+  text-align: center;
 }
