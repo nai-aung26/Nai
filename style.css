@@ -142,3 +142,8 @@ nav {
   color: white;
   transition: .2s;
 }
+
+.NA:hover {
+  color: White;
+  text-align: right;
+}
