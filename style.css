@@ -93,9 +93,8 @@ a {
 }
 
 footer {
-  color: bisque;
+  color: green;
   text-align: left;
-  background-color: green;
 }
 
 .logo-img{
@@ -123,7 +122,7 @@ li {
   text-align: center;
 }
 
-nav {
+.rg {
   display: inherit;
   position: relative;
   width: auto;
@@ -151,5 +150,41 @@ nav {
 }
 
 .resume {
+  text-align: center;
+  text-decoration: none;
+}
+
+.navfh {
+  text-align: right;
+  background: none;
+  display: inherit;
+  width: auto;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.fh:hover {
+  color: white;
+  transition: .2s;
+  background: gold;
+  padding: 15px;
+}
+
+.fh {
+  text-decoration: none;
+}
+
+.c:hover {
+color: Yellow;
+background-color: none;
+}
+
+.c {
+  text-shadow: yellow;
+  text-align: center;
+  text-decoration: none;
+}
+
+.lcm {
   text-align: center;
 }
