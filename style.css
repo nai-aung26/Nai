@@ -98,13 +98,15 @@ footer {
 
 .logo-img{
   float: left;
-  margin: 10px 10px 10px 10px;
+  position: relative;
+  margin: 10px;
   height: 75px;
 }
 
 .grid-logo{
-    margin: 10px 10px 10px 10px;
-  height: 75px;
+    margin: 10px;
+    height: 75px;
+    position: absolute;
 }
 
 li {
@@ -156,21 +158,25 @@ li {
 .navfh {
   text-align: right;
   background: none;
-  display: inherit;
+  display: block;
   width: auto;
   padding: 15px;
   font-size: 20px;
+  margin-top: auto;
+  overflow: hidden;
 }
 
 .fh:hover {
   color: white;
   transition: .2s;
   background: gold;
-  padding: 15px;
+  padding: 5px;
+
 }
 
 .fh {
   text-decoration: none;
+  display:inline-block;
 }
 
 .c:hover {
@@ -186,4 +192,8 @@ background-color: none;
 
 .lcm {
   text-align: center;
+}
+
+.nav-header {
+  overflow: hidden;
 }
