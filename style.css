@@ -167,14 +167,13 @@ li {
 }
 
 .fh:hover {
-  color: white;
-  transition: .2s;
-  background: gold;
-  padding: 5px;
-
+  color: Yellow;
+  background-color: none;
 }
 
 .fh {
+  text-shadow: yellow;
+  text-align: center;
   text-decoration: none;
   display:inline-block;
 }
@@ -196,4 +195,8 @@ background-color: none;
 
 .nav-header {
   overflow: hidden;
+}
+
+.op {
+  text-align: center;
 }
