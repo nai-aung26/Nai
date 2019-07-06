@@ -1,8 +1,8 @@
 .grid-container {
   display:grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 33vh 33vh 33vh;
-  grid-gap: 2px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 33vh 33vh 25vh;
+  grid-gap: 0px;
   text-align: center;
   color: white;
   grid-template-areas:
@@ -12,7 +12,8 @@
 }
 
 .grid-item {
-  padding: 100px;
+  padding: 50px;
+  font-size: 23px;
 }
 
 h1 {
@@ -99,8 +100,10 @@ a {
 }
 
 footer {
+  position: absolute;
   color: green;
   text-align: left;
+  bottom: 0;
 }
 
 .logo-img{
@@ -233,6 +236,7 @@ background-color: none;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  margin-top: 15px;
 }
 
 /* Links inside the dropdown */
@@ -260,6 +264,20 @@ background-color: none;
 
 }
 
-.Ming {
-  position: absolute;
+.Minmg {
+  width: 250px;
+}
+
+.bodyt {
+  width: 60%;
+  margin: auto;
+}
+
+#mp {
+  padding: 0;
+  max-width: 242px;
+}
+
+.authur {
+  font-style: italic;
 }
