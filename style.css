@@ -260,7 +260,7 @@ background-color: none;
 
 .bodyt {
   width: 80%;
-  margin: auto;
+  margin: 80%;
 }
 
 #mp {
@@ -270,4 +270,13 @@ background-color: none;
 
 .authur {
   font-style: italic;
+}
+
+.picfa1 {
+  width: 20%;
+  height: 60%;
+  border-radius: 50%;
+  margin-left: 1000px;
+  position: absolute;
+
 }
