@@ -61,11 +61,14 @@ background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+position: relative;
+height: 98vh;
 }
 
 body {
     margin: auto;
     font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
 }
 
 header {
@@ -261,6 +264,7 @@ background-color: none;
 .bodyt {
   width: 80%;
   margin: 13%;
+  line-height: 1.6;
 }
 
 #mp {
@@ -273,10 +277,9 @@ background-color: none;
 }
 
 .picfa1 {
-  width: 20%;
-  height: 60%;
+  width: 25%;
+  height: 70%;
   border-radius: 50%;
-  margin-left: 950px;
-  position: absolute;
+  float: right;
 
 }
