@@ -292,6 +292,13 @@ footer {
   border-radius: 30%;
 }
 
+.classmatepic1 {
+  float: right;
+  width: 40%;
+  height: 40%;
+  border-radius: 30%;
+}
+
 .classmatepage {
-  padding: 10%;
+  padding: 8%;
 }
