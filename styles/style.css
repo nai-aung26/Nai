@@ -22,11 +22,11 @@ h1 {
 }
 
 #About {
-  background-image: url(blue.jpg);
+  background-image: url('./images/blue.jpg');
 }
 
 #front {
-  background: url(Nebula.mp4)
+  background: url('./images/Nebula.mp4');
 }
 
 .backgroung-wrap {
