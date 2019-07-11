@@ -1,14 +1,14 @@
 .grid-container {
-  display:grid;
+  display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: 33vh 33vh 25vh;
   grid-gap: 0px;
   text-align: center;
   color: white;
   grid-template-areas:
-            ". . ."
-            "t img ."
-            "t img end";
+    ". . ."
+    "t img ."
+    "t img end";
 }
 
 .grid-item {
@@ -30,11 +30,11 @@ h1 {
 }
 
 .backgroung-wrap {
-  position:fixed;
+  position: fixed;
   z-index: -1000;
   width: 100%;
   height: 100%;
-  overflow:hidden;
+  overflow: hidden;
   top: 0;
   left: 0;
 }
@@ -49,26 +49,26 @@ h1 {
 
 #resume {
   background: url(Pic.jpg) no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #links {
   background: url(Moonset.jpg) no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-position: relative;
-height: 98vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 98vh;
 }
 
 body {
-    margin: auto;
-    font-family: 'Josefin Sans', sans-serif;
-    position: absolute;
+  margin: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
 }
 
 header {
@@ -87,7 +87,6 @@ i {
 p {
   color: gold;
   font-size: 22px;
-
 }
 
 em {
@@ -110,17 +109,17 @@ footer {
   bottom: 0;
 }
 
-.logo-img{
+.logo-img {
   float: left;
   position: relative;
   margin: 10px;
   height: 75px;
 }
 
-.grid-logo{
-    margin: 10px;
-    height: 75px;
-    position: absolute;
+.grid-logo {
+  margin: 10px;
+  height: 75px;
+  position: absolute;
 }
 
 .header-title {
@@ -143,7 +142,6 @@ footer {
 .link {
   color: lightblue;
   text-decoration: none;
-
 }
 
 .link:hover {
@@ -183,12 +181,12 @@ footer {
   text-shadow: yellow;
   text-align: center;
   text-decoration: none;
-  display:inline-block;
+  display: inline-block;
 }
 
 .c:hover {
-color: Yellow;
-background-color: none;
+  color: Yellow;
+  background-color: none;
 }
 
 .c {
@@ -232,7 +230,7 @@ background-color: none;
   position: absolute;
   background-color: white;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   margin-top: 15px;
 }
@@ -246,16 +244,20 @@ background-color: none;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: none;}
+.dropdown-content a:hover {
+  background-color: none;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: black;
   padding: 15px;
-  }
+}
 
 .Minmg {
   width: 250px;
@@ -274,6 +276,7 @@ background-color: none;
 
 .authur {
   font-style: italic;
+  color: gold;
 }
 
 .picfa1 {
@@ -281,5 +284,15 @@ background-color: none;
   height: 70%;
   border-radius: 50%;
   float: right;
+}
 
+.classmatepic {
+  float: left;
+  width: 40%;
+  height: 40%;
+  border-radius: 30%;
+}
+
+.classmatepage {
+  padding: 10%;
 }
