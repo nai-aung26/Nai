@@ -23,6 +23,13 @@ h1 {
 
 #About {
   background-image: url('./images/blue.jpg');
+  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 98vh;
 }
 
 #front {
@@ -47,16 +54,16 @@ h1 {
   min-width: 100%;
 }
 
-#resume {
+/* #resume {
   background: url(Pic.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 
 #links {
-  background: url(Moonset.jpg) no-repeat center center fixed;
+  background: url('./images/Moonset.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
