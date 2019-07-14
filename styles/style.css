@@ -98,13 +98,15 @@ h2 {
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 footer {
-  position: absolute;
-  color: green;
+  color: white;
   text-align: left;
   bottom: 0;
+  text-align: center;
+  font-size: 20px;
 }
 
 .logo-img {
@@ -133,17 +135,17 @@ footer {
   position: relative;
   width: auto;
   padding: 15px;
-  background-color: gray;
+  background-color: Brown;
   font-size: 20px;
 }
 
 .link {
-  color: lightblue;
+  color: gold;
   text-decoration: none;
 }
 
 .link:hover {
-  color: white;
+  color: gold;
   transition: .2s;
   background: black;
   padding: 15px;
@@ -154,18 +156,13 @@ footer {
   text-align: right;
 }
 
-.resume {
-  text-align: center;
-  text-decoration: none;
-}
-
 .navfh {
   text-align: right;
   background: none;
   display: block;
   width: auto;
   padding: 15px;
-  font-size: 20px;
+  font-size: 30px;
   margin-top: auto;
   overflow: hidden;
 }
@@ -207,8 +204,7 @@ footer {
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: none;
-  color: #ADD8E6;
+  color: gold;
   padding: 0px;
   font-size: 20px;
   border: none;
@@ -226,24 +222,25 @@ footer {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: brown;
+  min-width: 150px;
+  box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   margin-top: 15px;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+  color: gold;
+  padding: 10px 10px;
   text-decoration: none;
   display: block;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: none;
+  background-color: black;
+  transition: 0.2 second;
 }
 
 /* Show the dropdown menu on hover */
@@ -259,22 +256,29 @@ footer {
 
 .Minmg {
   width: 250px;
+  height: 250px;
+  margin-left: 100px;
 }
 
 .bodyt {
-  width: 80%;
-  margin: 13%;
+  width: 85%;
+  margin: 7%;
   line-height: 1.6;
 }
 
 #mp {
   padding: 0;
-  max-width: 242px;
+  max-width: 400px;
 }
 
 .authur {
   font-style: italic;
   color: gold;
+}
+
+.picfa1:hover {
+  display:
+    padding: 2px;
 }
 
 .picfa1 {
@@ -300,4 +304,31 @@ footer {
 
 .classmatepage {
   padding: 8%;
+}
+
+#icon i {
+  font-size: 50px;
+  color: #0892A5;
+  margin-left: 20px;
+}
+
+#icon i:hover {
+  color: white;
+  transition: 0.2sec;
+}
+
+.nameunder {
+  text-align: center;
+  margin-left: 120px;
+}
+
+/* #classpage {
+  top: 20px;
+  font-size: 20px;
+  visibility: hidden; */
+}
+
+.ddd {
+  color: white;
+  font-size: 40px;
 }
