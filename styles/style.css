@@ -168,7 +168,7 @@ footer {
 }
 
 .fh:hover {
-  color: Yellow;
+  color: blue;
   background-color: none;
 }
 
@@ -177,6 +177,9 @@ footer {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  padding: 5px;
+  background-color: violet;
+  border-radius: 20px;
 }
 
 .c:hover {
@@ -308,23 +311,25 @@ footer {
 
 #icon i {
   font-size: 50px;
-  color: #72A1E5;
+  color: deepskyblue;
   margin-left: 20px;
+  /* box-shadow: 0 3px blue; */
 }
 
 #icon i:hover {
-  color: white;
+  color: blue;
   transition: 0.2sec;
 }
 
 #icons i {
-  font-size: 40px;
+  font-size: 30px;
   color: white;
-  margin-left: 20px;
+  margin-left: 0px;
+  background-color: violet;
 }
 
 #icons i:hover {
-  color: yellow;
+  color: blue;
   transition: 0.2sec;
 }
 
