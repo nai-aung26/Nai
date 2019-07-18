@@ -19,6 +19,7 @@
 .text1 {
   grid-area: t;
   padding-top: 30px;
+  font-size: x-large;
 }
 
 .imgfmiddle {
@@ -27,11 +28,13 @@
 
 .connecticon {
   grid-area: icon;
-  padding-top: 30px;
+  padding-top: 80px;
 }
 
 .text2 {
   grid-area: t1;
+  padding-top: 30px;
+  font-size: x-large;
 }
 
 h1 {
@@ -114,7 +117,7 @@ i {
 
 p {
   color: gold;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 em {
@@ -173,6 +176,8 @@ footer {
 .link {
   color: gold;
   text-decoration: none;
+  font-size: 28px;
+  padding: 5px;
 }
 
 .link:hover {
@@ -219,6 +224,7 @@ footer {
   font-size: 25px;
   transition: transform .2s;
   display: inline-block;
+  line-height: 1.4em;
 }
 
 .c:hover {
@@ -228,13 +234,28 @@ footer {
   transform: scale(1.5);
 }
 
+.classmatepic {
+  float: left;
+  width: 40%;
+  height: 40%;
+  border-radius: 30%;
+  transition: transform .2s ease;
+  display: inline-block;
+}
+
+.classmatepic1 {
+  float: right;
+  width: 40%;
+  height: 40%;
+  border-radius: 30%;
+}
+
 .forlink {
   padding: 30px;
 }
 
 .lcm {
   text-align: center;
-  display: inline-block;
 }
 
 .nav-header {
@@ -248,8 +269,8 @@ footer {
 /* Dropdown Button */
 .dropbtn {
   color: gold;
-  padding: 0px;
-  font-size: 20px;
+  padding: 5px;
+  font-size: 28px;
   border: none;
   font-family: Josefin Sans;
   transition: .2s;
@@ -298,8 +319,8 @@ footer {
 }
 
 .Minmg {
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 280px;
   margin-left: 0px;
 }
 
@@ -320,29 +341,59 @@ footer {
 }
 
 .picfa1:hover {
-  display:
-    padding: 2px;
+  display: inline-block;
+  padding: 2px;
+  transform: scale(1.3);
 }
 
 .picfa1 {
-  width: 25%;
+  width: 30%;
+  height: 70%;
+  border-radius: 50%;
+  float: left;
+  transition: transform .2s ease;
+}
+
+.sitpic:hover {
+  display: inline-block;
+  padding: 2px;
+  transform: scale(1.3);
+}
+
+.sitpic {
+  width: 50%;
   height: 70%;
   border-radius: 50%;
   float: right;
+  transition: transform .2s ease;
 }
 
-.classmatepic {
-  float: left;
-  width: 40%;
-  height: 40%;
-  border-radius: 30%;
+.carf:hover {
+  display: inline-block;
+  padding: 2px;
+  transform: scale(1.3);
 }
 
-.classmatepic1 {
+.carf {
+  width: 28%;
+  height: 70%;
+  border-radius: 50%;
   float: right;
-  width: 40%;
-  height: 40%;
-  border-radius: 30%;
+  transition: transform .2s ease;
+}
+
+.parents:hover {
+  display: inline-block;
+  padding: 2px;
+  transform: scale(1.3);
+}
+
+.parents {
+  width: 30%;
+  height: 70%;
+  border-radius: 50%;
+  float: left;
+  transition: transform .2s ease;
 }
 
 .classmatepage {
@@ -377,6 +428,8 @@ footer {
 .nameunder {
   text-align: center;
   margin-left: 0px;
+  font-size: 40px;
+  color: gold;
 }
 }
 
