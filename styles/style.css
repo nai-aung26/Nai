@@ -6,9 +6,51 @@
   text-align: center;
   color: white;
   grid-template-areas:
-    "t . . "
-    ". img . "
+    "t img ct "
+    ". . map "
     ". icon t1 ";
+}
+
+.mmmap {
+  grid-area: map;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
+
+.tundermap {
+  text-align: center;
+  padding-left: 110px;
+}
+
+.wmap:hover {
+  display: inline-block;
+  padding: 2px;
+  transform: scale(2.1);
+}
+
+.wmap {
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  padding-left: 20%;
+  padding-bottom: 0%;
+  transition: transform 1.8s ease;
+}
+
+.flag {
+  grid-area: ct;
+  display: flex;
+  align-items: center;
+  padding-left: 30%;
+}
+
+.fflat {
+  width: 35%;
+  height: 35%;
+  align-items: center;
+  padding: 10px;
+  padding-top: 70px;
 }
 
 .grid-item {
@@ -18,7 +60,7 @@
 
 .text1 {
   grid-area: t;
-  padding-top: 30px;
+  padding: 50px;
   font-size: x-large;
 }
 
@@ -28,12 +70,15 @@
 
 .connecticon {
   grid-area: icon;
-  padding-top: 80px;
+  padding-top: 90px;
+  display: inline-flex;
+  margin-right: 50px;
+  padding-left: 50px;
 }
 
 .text2 {
   grid-area: t1;
-  padding-top: 30px;
+  padding: 50px;
   font-size: x-large;
 }
 
@@ -319,9 +364,10 @@ footer {
 }
 
 .Minmg {
-  width: 280px;
-  height: 280px;
-  margin-left: 0px;
+  width: 400px;
+  height: 400px;
+  padding-top: 160px;
+  padding-left: 40px;
 }
 
 .bodyt {
@@ -425,12 +471,25 @@ footer {
   transition: 0.2sec;
 }
 
+#icon i:hover {
+  display: inline-block;
+  padding: 2px;
+  transform: scale(1.3);
+}
+
+#icon i {
+  width: 50%;
+  height: 70%;
+  border-radius: 50%;
+  transition: transform .2s ease;
+}
+
 .nameunder {
   text-align: center;
   margin-left: 0px;
   font-size: 40px;
   color: gold;
-}
+  padding-left: 50px;
 }
 
 .ddd {
