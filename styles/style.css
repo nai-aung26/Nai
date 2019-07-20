@@ -142,7 +142,7 @@ h1 {
 }
 
 .name {
-  background: green;
+  background: lightslategray;
 }
 
 body {
@@ -216,21 +216,22 @@ footer {
 .rg {
   display: inherit;
   position: relative;
-  width: auto;
+  max-width: auto;
   padding: 15px;
-  background-color: Brown;
+  background-color: gold;
   font-size: 20px;
 }
 
 .link {
-  color: gold;
+  color: blue;
   text-decoration: none;
   font-size: 28px;
   padding: 5px;
+  margin-left: 60px;
 }
 
 .link:hover {
-  color: gold;
+  color: blue;
   transition: .2s;
   background: black;
   padding: 15px;
@@ -317,12 +318,13 @@ footer {
 
 /* Dropdown Button */
 .dropbtn {
-  color: gold;
+  color: blue;
   padding: 5px;
   font-size: 28px;
   border: none;
   font-family: Josefin Sans;
   transition: .2s;
+  margin-left: 60px;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -335,16 +337,17 @@ footer {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: brown;
+  background-color: gold;
   min-width: 150px;
   box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   margin-top: 15px;
+  margin-left: 60px;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: gold;
+  color: blue;
   padding: 10px 10px;
   text-decoration: none;
   display: block;
@@ -534,7 +537,7 @@ footer {
 }
 
 #first {
-  animation: swipe 2s;
+  animation: swipe 1s;
   top: 75px;
   animation-delay: 0s;
   animation-fill-mode: both;
@@ -542,7 +545,7 @@ footer {
 }
 
 #second {
-  animation: swipe 2s;
+  animation: zoom 3s;
   top: 75px;
   animation-delay: 0s;
   animation-fill-mode: both;
@@ -550,7 +553,7 @@ footer {
 }
 
 #third {
-  animation: swipe 2s;
+  animation: swipe 5s;
   top: 75px;
   animation-delay: 0s;
   animation-fill-mode: both;
@@ -558,7 +561,7 @@ footer {
 }
 
 #fourth {
-  animation: swipe 2s;
+  animation: swipe 7s;
   top: 75px;
   animation-delay: 0s;
   animation-fill-mode: both;
