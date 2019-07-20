@@ -235,7 +235,8 @@ footer {
   color: blue;
   transition: .2s;
   background: black;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .NA:hover {
