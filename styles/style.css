@@ -369,7 +369,8 @@ footer {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: black;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .Minmg {
