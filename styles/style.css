@@ -7,7 +7,7 @@
   color: white;
   grid-template-areas:
     "t img ct "
-    ". . map "
+    "a . map "
     ". icon t1 ";
 }
 
@@ -16,25 +16,27 @@
   display: inline-block;
   align-items: center;
   text-align: center;
+  max-width: 200px;
+  margin-bottom: 90px;
 }
 
 .tundermap {
   text-align: center;
-  padding-left: 110px;
+  padding-left: 250px;
 }
 
 .wmap:hover {
   display: inline-block;
-  padding: 2px;
   transform: scale(2.1);
+  cursor: pointer;
 }
 
 .wmap {
   width: 200px;
   height: 200px;
   align-items: center;
-  padding-left: 20%;
-  padding-bottom: 0%;
+  margin-left: 90%;
+  margin-bottom: 0%;
   transition: transform 1.8s ease;
 }
 
@@ -70,10 +72,12 @@
 
 .connecticon {
   grid-area: icon;
-  padding-top: 90px;
+  margin-top: 90px;
   display: inline-flex;
   margin-right: 50px;
-  padding-left: 50px;
+  margin-left: 50px;
+  max-width: 10px;
+  max-height: 10px;
 }
 
 .text2 {
@@ -388,13 +392,13 @@ footer {
 
 .picfa1:hover {
   display: inline-block;
-  padding: 2px;
+  /* padding: 2px; */
   transform: scale(1.3);
 }
 
 .picfa1 {
-  width: 30%;
-  height: 70%;
+  max-width: 30%;
+  max-height: 70%;
   border-radius: 50%;
   float: left;
   transition: transform .2s ease;
@@ -402,7 +406,7 @@ footer {
 
 .sitpic:hover {
   display: inline-block;
-  padding: 2px;
+  /* padding: 2px; */
   transform: scale(1.3);
 }
 
@@ -416,7 +420,7 @@ footer {
 
 .carf:hover {
   display: inline-block;
-  padding: 2px;
+  /* padding: 2px; */
   transform: scale(1.3);
 }
 
@@ -430,7 +434,7 @@ footer {
 
 .parents:hover {
   display: inline-block;
-  padding: 2px;
+  /* padding: 2px; */
   transform: scale(1.3);
 }
 
@@ -495,4 +499,68 @@ footer {
 .ddd {
   color: white;
   font-size: 40px;
+}
+
+.allswipe {
+  grid-area: a;
+  position: inherit;
+  background: none;
+  left: 90px;
+  border: none;
+  display: inline-block;
+}
+
+.allswipe:hover {
+  color: yellow;
+  transition: .4s;
+}
+
+.w1 {
+  padding-left: 0px;
+  font-size: 35px;
+  color: white;
+}
+
+@keyframes swipe {
+  from {
+    opacity: 0;
+    left: -100px;
+  }
+
+  to {
+    opacity: 1;
+    left: 90px;
+  }
+}
+
+#first {
+  animation: swipe 2s;
+  top: 75px;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  margin-top: 0px;
+}
+
+#second {
+  animation: swipe 2s;
+  top: 75px;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  margin-top: 0px;
+}
+
+#third {
+  animation: swipe 2s;
+  top: 75px;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  margin-top: 0px;
+}
+
+#fourth {
+  animation: swipe 2s;
+  top: 75px;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  margin-top: 0px;
 }
