@@ -143,6 +143,7 @@ h1 {
 
 .name {
   background: lightslategray;
+  padding: 10px;
 }
 
 body {
@@ -195,7 +196,7 @@ footer {
   float: left;
   position: relative;
   margin: 10px;
-  padding-top: 25px;
+  padding-top: 10px;
   height: 75px;
 }
 
